@@ -1,0 +1,27 @@
+#footer {
+      height: 100px;
+      background-color: burlywood;
+      background-position: center;
+}
+
+.footerbox {
+      max-width: 1140px;
+      height: 100%;
+      margin: 0 auto;
+      text-align: center;
+      background-position: center;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.footerbox .menu img {
+      height: 50px;
+}
+.footermenulogo{
+      color: aliceblue;
+      font-size: 30;    
+}
+.footerbox  .menuicon img {
+      height: 25px;
+}

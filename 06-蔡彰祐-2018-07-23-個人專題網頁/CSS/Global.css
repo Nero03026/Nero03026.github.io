@@ -1,0 +1,38 @@
+/* 內文 */
+body {
+      margin: 0;
+      padding: 0;
+}
+/* 大標題抬頭 */
+#section{
+      width: 100%;
+      height: 80px;
+      background-color: burlywood;
+}
+p {
+      margin: 20px 0px;
+      padding: 0;
+      font-size: 30px;
+}
+/* 邊框限制 */
+.content{
+      max-width: 1140px;
+}
+/* 字體大小 */
+.font24px{
+      font-size: 24px;
+}
+/* 置中 */
+.again{
+      text-align: center;
+      line-height: 60px;
+      padding: 25px 0px;
+}
+.font36px{
+      font-size: 36px;
+      margin-left: 20px;
+}
+/* 清除 */
+.clear {
+      clear: both;
+}

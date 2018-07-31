@@ -1,0 +1,95 @@
+#header {
+      height: 100px;
+      background-color: burlywood;
+}
+
+/* 首頁點選圖 */
+
+.photo01 {
+      background-image: url(../Image/header/key-vISUAL/001.jpg);
+}
+
+.photo02 {
+      background-image: url(../Image/header/key-vISUAL/002.jpg);
+}
+
+.photo03 {
+      background-image: url(../Image/header/key-vISUAL/003.jpg);
+}
+
+.photo04 {
+      background-image: url(../Image/header/key-vISUAL/004.jpg);
+}
+
+.headerbox {
+      width: 1140px;
+      height: 100%;
+      margin: 0 auto;
+      text-align: center;
+      position: relative;
+}
+
+/* 左右兩面的按鈕圖片 */
+
+.headerbox .menu img {
+      height: 50px;
+      padding: 25px 0px;
+}
+
+/* LOGO */
+
+.menulogo img {
+      height: 80px;
+      padding: 10px 0px;
+}
+
+/* 選單向左靠齊 */
+.headerbox .menu.left {
+      float: left;
+}
+/* LOGO定位 */
+.menulogo.left {
+      position: absolute;
+      z-index: 2;
+      left: 50%;
+      transform: translateX(-50%);
+}
+/* FB選單向右靠齊 */
+.headerbox .menu.right {
+      float: right;
+}
+/* 四張圖片 */
+#headerphoto {
+      margin: 0;
+      padding: 0px;
+      height: 100vh;
+      object-fit: contain;
+}
+/* 照片預設尺寸和寬度 */
+.photo {
+      position: relative;
+      float: left;
+      width: 5%;
+      height: 100%;
+}
+/* 標籤的外框 */
+.titlebox {
+      position: absolute;
+      right: 0;
+      top: 0;
+      background-color: blue;
+      width: 30px;
+      height: 180px;
+      text-align: center;
+      background-size: cover;
+}
+/* 標籤的字 */
+p.title {
+      transform: rotate(90deg);
+      font-size: 20px;
+      white-space: nowrap;
+}
+/* 被選到圖片的寬度 */
+.current {
+      width: 85%;
+}

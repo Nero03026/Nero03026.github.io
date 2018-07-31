@@ -1,0 +1,236 @@
+
+.sectionbox {
+      height: 80px;
+      max-width: 1140px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+}
+
+.sectiontext {
+      font-size: 36px;
+      margin-left: 20px;
+}
+
+.sectionicon img {
+      float: right;
+      margin-right: 30px;
+      height: 30px;
+}
+
+.sectiondecoration {
+      position: absolute;
+      z-index: 3;
+      border: 20px;
+      background-color: aliceblue;
+      height: 40px;
+      width: 6px;
+      left: -3px;
+}
+
+/* 時刻店照 */
+
+.contentbox1 {
+      height: 400px;
+      width: 50%;
+      background-image: url(../Image/section1/shop.jpg);
+      background-position: center;
+      float: left;
+}
+
+/* HowAreYou三張輪播 */
+
+.photo-01 {
+      background-image: url(../Image/HowAreYou/01.jpg);
+      background-size: cover;
+      background-position: center;
+}
+
+.photo-02 {
+      background-image: url(../Image/HowAreYou/02.jpg);
+      background-size: cover;
+      background-position: center;
+}
+
+.photo-03 {
+      background-image: url(../Image/HowAreYou/03.jpg);
+      background-size: cover;
+      background-position: center;
+}
+
+.content {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 50px 0px;
+}
+
+
+.contentborder {
+      margin-top: 10px;
+      width: 100%;
+      background-color: rgb(44, 44, 44);
+      height: 1.5px;
+      margin-bottom: 30px;
+}
+
+.contentbox {
+      float: left;
+      width: 100%;
+      margin: 0;
+}
+
+.contentbox2 {
+      height: calc(400px - 76px);
+      width: 50%;
+      font-size: 24px;
+      text-align: center;
+      padding: 38px 0px;
+      overflow: hidden;
+      white-space: nowrap;
+}
+
+.contentboxtext2 {
+      display: flex;
+      justify-content: center;
+      line-height: 65px;
+}
+
+.contentbox3 {
+      height: calc(400px - 76px);
+      width: calc(50% - 100px);
+      font-size: 24px;
+      padding: 38px 40px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-align: center;
+      display: inline-block;
+}
+
+.conentbox3-left {
+      margin: 0;
+      padding: 0;
+      float: left;
+      margin-right: -10px;
+}
+
+.conentbox3-left-box {
+      position: relative;
+      padding: 8px 10px 8px 40px;
+}
+
+.conentbox3-broder {
+      position: absolute;
+      display: inline-block;
+      background-color: black;
+      margin-left: 20px;
+      width: 5px;
+      height: 30px;
+}
+
+.contentbox4 {
+      float: right;
+      width: 50%;
+      padding-bottom: 60px;
+}
+
+.conentbox3-right {
+      position: relative;
+      float: left;
+      padding: 8px 0px 8px;
+      padding-left: 80px;
+}
+
+.conentbox3-right .text6 {
+      text-align: justify;
+      position: absolute;
+      float: left;
+}
+
+.textbox {
+      padding-left: 80px;
+      text-align: justify;
+}
+
+.contentbox5 {
+      float: left;
+      width: 50%;
+      height: 400px;
+      margin-bottom: 20px;
+}
+
+.contentbox5photo {
+      width: 100%;
+      height: 100%;
+}
+
+.contentbox6 {
+      width: calc(50% - 30px);
+      padding-left: 30px;
+      height: 400px;
+      float: right;
+}
+
+.contentbox6-box {
+      position: relative;
+      width: 100%;
+      height: 18%;
+      background-color: white;
+}
+
+.contentbox6-box-data {
+      position: absolute;
+      width: 25%;
+      height: 60%;
+      margin-top: 13.4px;
+      background-color: black;
+      font-size: 24px;
+      color: blanchedalmond;
+      text-align: center;
+      line-height: 43.2px;
+}
+
+.contentbox6-box-icon img {
+      position: absolute;
+      right: 50px;
+      top: 21.6px;
+      height: 30px;
+}
+
+.contentbox6-box-innertext {
+      position: absolute;
+      font-size: 18px;
+      left: 160px;
+      top: 20px;
+}
+
+.contentbox6-box-more {
+      width: 60px;
+      height: 30px;
+      background-color: black;
+      float:right;
+      margin: 10px 20px 0px 0px ;
+      color: #fff;
+      line-height: 22.5px;
+      text-align: center;
+      border-radius: 5%;
+}
+
+.contentbox6-border {
+      background-color: black;
+      width: 540px;
+      height: 3px;
+      position: absolute;
+      z-index: 4;
+}
+
+.contenttextbox6 {
+
+      font-size: 18px;
+      text-align: center;
+      padding: 20px 0px 40px;
+      line-height: 40px;
+      width: 100%;
+
+}

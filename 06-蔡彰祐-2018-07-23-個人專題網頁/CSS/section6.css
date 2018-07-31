@@ -1,0 +1,153 @@
+.section2box {
+      width: 50%;
+}
+
+.contenttop {
+      width: 100%;
+      position: relative;
+}
+
+.contentboxtitle {
+      float: left;
+      width: 50%;
+      padding-bottom: 80px;
+}
+.contentboxtext2{
+      line-height: 65px;
+}
+.contentbox-border {
+      position: absolute;
+      height: 2px;
+      width: 100%;
+      background-color: black;
+      margin: 40px 0px;
+}
+
+.contentleft {
+      width: 48%;
+      padding-right: 20px;
+      float: left;
+}
+
+.contentright {
+      width: calc(50% - 30px);
+      padding-left: 30px;
+      height: 400px;
+      float: left;
+      margin-bottom: 50px;
+}
+
+.content-border {
+      background-color: black;
+      width: 540px;
+      height: 3px;
+      position: absolute;
+      z-index: 4;
+}
+
+.contentright-box {
+      position: relative;
+      width: 100%;
+      height: 18%;
+      background-color: white;
+}
+
+.contentright-box-data {
+      position: absolute;
+      width: 25%;
+      height: 60%;
+      margin-top: 13.4px;
+      background-color: black;
+      font-size: 24px;
+      color: blanchedalmond;
+      text-align: center;
+      line-height: 43.2px;
+}
+
+.contentright-box-more {
+      width: 60px;
+      height: 30px;
+      background-color: black;
+      position: absolute;
+      right: 25px;
+      top: 85px;
+      color: #fff;
+      line-height: 22.5px;
+      text-align: center;
+      border-radius: 5%;
+}
+
+.content-face {
+      margin: 0 auto;
+}
+
+.plugin chrome webkit win x1-5 Locale_zh_TW {
+      width: 1000px;
+}
+
+._2p3a {
+      max-width: 1000px;
+}
+
+            /* 商品選單列 */
+
+            .buttom {
+                  width: 20%;
+                  height: 50px;
+                  background-color: blue;
+                  float: left;
+                  text-align: center;
+                  line-height: 80px;
+                  font-size: 24px;
+            }
+
+            /* 商品框架 */
+
+            .shopbox {
+                  margin: 0 auto;
+                  display: flex;
+                  justify-content: space-between;
+
+            }
+
+            /* 商品總類 */
+
+            .shoptitle {
+                  width: 20%;
+                  font-size: 18px;
+                  line-height: 60px;
+                  text-align: center;
+                  float: left;
+            }
+
+            .shopheader {
+                  height: 60px;
+                  background-color: blueviolet;
+            }
+
+            .shopmenu {
+                  text-align: center;
+                  width: 100%;
+                  font-size: 18px;
+            }
+
+            .shopmenu ul {
+                  list-style-type: none;
+                  padding-left: 0;
+                  margin: 0;
+
+            }
+
+            .shopmenu li>div.product-item {
+                  width: 50%;
+                  min-height: 1px;
+                  float: left;
+            }
+
+            .price {
+                  display: flex;
+            }
+
+            .price>div {
+                  width: 50%;
+            }
