@@ -61,7 +61,7 @@
       width: calc(100% - 50px);
       padding: 25px 25px;
       height: 250px;
-      background-color: antiquewhite;
+      background-color: #91B5FA;
 }
 
 /* 女僕名字 */
@@ -71,7 +71,7 @@
       line-height: 50px;
       font-size: 18px;
       text-align: center;
-      background-color: aquamarine;
+      background-color: #8F97E2;
 }
 
 /* 女僕照 */

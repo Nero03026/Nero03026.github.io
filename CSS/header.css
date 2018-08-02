@@ -1,6 +1,6 @@
 #header {
       height: 100px;
-      background-color: burlywood;
+      background-color: #91B5FA;
 }
 
 /* 首頁點選圖 */
@@ -44,52 +44,90 @@
 }
 
 /* 選單向左靠齊 */
+
 .headerbox .menu.left {
       float: left;
 }
+
 /* LOGO定位 */
+
 .menulogo.left {
       position: absolute;
       z-index: 2;
       left: 50%;
       transform: translateX(-50%);
 }
+
 /* FB選單向右靠齊 */
+
 .headerbox .menu.right {
       float: right;
 }
+
 /* 四張圖片 */
+
 #headerphoto {
       margin: 0;
       padding: 0px;
       height: 100vh;
       object-fit: contain;
 }
+
 /* 照片預設尺寸和寬度 */
-.photo {
+
+.headerphoto {
       position: relative;
       float: left;
       width: 5%;
       height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
 }
+
+.headerphoto:hover .cover {
+      display: block;
+}
+
+.headerphoto:hover .cover {
+      display: block;
+}
+
+.headerphoto:hover .cover {
+      display: block;
+}
+
+.headerphoto:hover .cover {
+      display: block;
+}
+
+/* .cover {
+      height: 100%;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.466);
+      display: none;
+} */
+
 /* 標籤的外框 */
+
 .titlebox {
       position: absolute;
       right: 0;
       top: 0;
-      background-color: blue;
+      background-color: #FCA22B;
       width: 30px;
-      height: 180px;
+      height: 150px;
       text-align: center;
       background-size: cover;
 }
+
 /* 標籤的字 */
+
 p.title {
       transform: rotate(90deg);
       font-size: 20px;
       white-space: nowrap;
 }
+
 /* 被選到圖片的寬度 */
-.current {
-      width: 85%;
-}
+
