@@ -37,7 +37,10 @@
       width: 50%;
       background-image: url(../Image/section1/shop.jpg);
       background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
       float: left;
+
 }
 
 /* HowAreYou三張輪播 */
@@ -63,7 +66,6 @@
 .content {
       max-width: 1140px;
       margin: 0 auto;
-      padding: 50px 0px;
 }
 
 
@@ -74,38 +76,30 @@
       height: 1.5px;
       margin-bottom: 30px;
 }
-
-.contentbox {
-      float: left;
-      width: 100%;
-      margin: 0;
-}
-
 .contentbox2 {
-      height: calc(400px - 76px);
       width: 50%;
       font-size: 24px;
       text-align: center;
       padding: 38px 0px;
       overflow: hidden;
-      white-space: nowrap;
+      line-height: 65px;
+      float: left;
 }
 
 .contentboxtext2 {
-      display: flex;
-      justify-content: center;
-      line-height: 65px;
+      line-height: 20px;
 }
 
 .contentbox3 {
-      height: calc(400px - 76px);
-      width: calc(50% - 100px);
+      height: 400px;
+      width: 50%;
       font-size: 24px;
       padding: 38px 40px;
       overflow: hidden;
       white-space: nowrap;
       text-align: center;
       display: inline-block;
+      float: left;
 }
 
 .conentbox3-left {
@@ -131,6 +125,7 @@
 
 .contentbox4 {
       float: right;
+      height: 400px;
       width: 50%;
       padding-bottom: 60px;
 }

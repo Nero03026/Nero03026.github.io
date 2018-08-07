@@ -22,7 +22,7 @@
 }
 
 .headerbox {
-      width: 1140px;
+      width: 80%;
       height: 100%;
       margin: 0 auto;
       text-align: center;
@@ -32,14 +32,14 @@
 /* 左右兩面的按鈕圖片 */
 
 .headerbox .menu img {
-      height: 50px;
+      height: 35px;
       padding: 25px 0px;
 }
 
 /* LOGO */
 
 .menulogo img {
-      height: 80px;
+      height: 35px;
       padding: 10px 0px;
 }
 
@@ -57,6 +57,9 @@
       left: 50%;
       transform: translateX(-50%);
 }
+.menulogo.left img {
+      height: 60px;
+}
 
 /* FB選單向右靠齊 */
 
@@ -67,6 +70,7 @@
 /* 四張圖片 */
 
 #headerphoto {
+
       margin: 0;
       padding: 0px;
       height: 100vh;
@@ -118,4 +122,3 @@ p.title {
 }
 
 /* 被選到圖片的寬度 */
-

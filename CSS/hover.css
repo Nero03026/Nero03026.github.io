@@ -1,0 +1,29 @@
+.contentright-box:hover .contentright-box-data {
+      background-color: red;
+}
+
+.contentright-box:hover .contentbox6-box-icon img {
+      right: 21px;
+      content: url('../Image/header/right-arrow-red.svg');
+}
+
+.contentbox6-box:hover .contentbox6-box-data {
+      background-color: red;
+}
+
+.contentbox6-box:hover .contentbox6-box-icon img {
+      right: 21px;
+      content: url('../Image/header/right-arrow-red.svg');
+}
+
+.contentbox6-box-more:hover {
+      background-color: red;
+}
+
+.menu.right :hover img {
+      content: url('../Image/header/facebook-pulper.svg');
+}
+
+.sectionicon :hover img {
+      content: url('../Image/header/facebook-letter-puplue.svg');
+}
