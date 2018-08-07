@@ -1,12 +1,13 @@
 #footer {
-      height: 100px;
+      height: 80px;
       background-color: #91B5FA;
       background-position: center;
+      width: 100%;
 }
 
 .footerbox {
-      max-width: 1140px;
-      height: 100%;
+      width: 75%;
+      line-height: 80px;
       margin: 0 auto;
       text-align: center;
       background-position: center;
@@ -16,12 +17,14 @@
 }
 
 .footerbox .menu img {
+      float: left;
       height: 50px;
 }
 .footermenulogo{
       color: aliceblue;
-      font-size: 30;    
+      font-size: 36;    
 }
 .footerbox .menuicon img {
-      height: 25px;
+      margin-bottom: -13px;
+      height: 30px;
 }

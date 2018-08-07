@@ -1,22 +1,3 @@
-.sectionbox {
-      height: 80px;
-      max-width: 1140px;
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      position: relative;
-}
-
-.sectiontext {
-      font-size: 36px;
-      margin-left: 20px;
-}
-
-.sectionicon img {
-      float: right;
-      height: 30px;
-}
 
 
 
