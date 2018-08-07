@@ -1,0 +1,25 @@
+.content {
+      width: 100%;
+}
+
+.sectioncontent {
+      width: 75%;
+      margin: 0 auto;
+      height: 400px;
+}
+
+.block {
+      float: left;
+      width: 50%;
+      height: 400px;
+}
+/* 標籤線條 */
+.sectiondecoration {
+      position: absolute;
+      z-index: 3;
+      border: 20px;
+      background-color: aliceblue;
+      height: 40px;
+      width: 6px;
+      left: -3px;
+}

@@ -76,17 +76,11 @@
       text-align: center;
       border-radius: 5%;
 }
-
-.content-face {
-      margin: 0 auto;
-}
-
 .plugin chrome webkit win x1-5 Locale_zh_TW {
       width: 1000px;
 }
-
 ._2p3a {
-      max-width: 1000px;
+      width: 100%!important;
 }
 
             /* 商品選單列 */
