@@ -28,3 +28,8 @@
       margin-bottom: -13px;
       height: 30px;
 }
+@media(max-width:1140px) {
+      .footermenulogo{
+            font-size:24;    
+      }
+}
