@@ -5,23 +5,7 @@
 
 /* HowAreYou三張輪播 */
 
-.photo-01 {
-      background-image: url(../Image/HowAreYou/01.jpg);
-      background-size: cover;
-      background-position: center;
-}
 
-.photo-02 {
-      background-image: url(../Image/HowAreYou/02.jpg);
-      background-size: cover;
-      background-position: center;
-}
-
-.photo-03 {
-      background-image: url(../Image/HowAreYou/03.jpg);
-      background-size: cover;
-      background-position: center;
-}
 
 .content {
       max-width: 1140px;
@@ -41,29 +25,13 @@
       text-align: justify;
 }
 
-
-
-.contentbox5photo {
-      width: 100%;
-      height: 100%;
-}
-
-
-
-.contentbox6-box {
-      position: relative;
-      width: 100%;
-      height: 18%;
-      background-color: white;
-}
-
 .contentbox6-box-data {
       position: absolute;
       width: 25%;
       height: 60%;
       margin-top: 13.4px;
       background-color: black;
-      font-size: 24px;
+      font-size: 18px;
       color: blanchedalmond;
       text-align: center;
       line-height: 43.2px;
