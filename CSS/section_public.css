@@ -1,5 +1,6 @@
 .content {
-      width: 100%;
+      max-width: 1140px;
+      margin: 0 auto;
 }
 
 .sectioncontent {
@@ -13,6 +14,7 @@
       width: 50%;
       height: 400px;
 }
+
 /* 標籤線條 */
 .sectiondecoration {
       position: absolute;
@@ -22,4 +24,12 @@
       height: 40px;
       width: 6px;
       left: -3px;
+}
+/* 標籤線條 */
+.contentborder {
+      margin-top: 10px;
+      width: 100%;
+      background-color: rgb(44, 44, 44);
+      height: 1.5px;
+
 }

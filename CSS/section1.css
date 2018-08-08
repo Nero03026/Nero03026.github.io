@@ -32,7 +32,7 @@
       position: absolute;
       display: inline-block;
       background-color: black;
-      margin: 0px 0px 60px 30px;
+      margin: 0px 0px 80px 30px;
       width: 5px;
       height: 30px;
 }
@@ -62,24 +62,69 @@
       height: 400px;
       margin-bottom: 20px;
 }
+
 .contentbox5photo {
       width: 100%;
       height: 100%;
 }
+
 .contentbox6 {
       width: calc(50% - 20px);
       padding: 0px 10px;
       height: 400px;
       float: left;
 }
+
 .contentbox6-box {
       position: relative;
       width: 100%;
-      height: 18%;
+      height: 17%;
       background-color: white;
 }
-.contentbox6 block{
+
+.contentbox6 block {
       width: 100%;
+}
+
+.contentbox6-box-data {
+      width: 25%;
+      height: 60%;
+      margin-top: 13px;
+      background-color: black;
+      font-size: 18px;
+      color: blanchedalmond;
+      text-align: center;
+      line-height: 43.2px;
+      float: left;
+}
+
+.contentbox6-box-icon img {
+      height: 30px;
+      margin-left: 20px;
+      margin-top: 20px;
+      float: left;
+}
+
+.contentbox6-box-innertext {
+      float: left;
+      font-size: 15px;
+      width: calc(60% - 40px);
+      height: 70px;
+      line-height: 70px;
+      padding: 0px 20px 0px;
+      word-break: break-all;
+}
+
+.contentbox6-box-more {
+      width: 60px;
+      height: 7.5%;
+      background-color: black;
+      float: right;
+      margin: 10px 20px 0px 0px;
+      color: #fff;
+      line-height: 22.5px;
+      text-align: center;
+      border-radius: 5%;
 }
 
 .contentbox6-border {
@@ -104,11 +149,31 @@
             font-size: 12px;
       }
       .conentbox3-broder {
-            margin: -15px 0px 0px 30px;
+            margin: 0px 0px 0px 5px;
             width: 2.5px;
             height: 15px;
       }
-      .contentbox3.block{
+      .contentbox3.block {
             height: 300px;
+      }
+      .contentbox6-box-icon img {
+            margin-left: 0px;
+      }
+      .contentbox6-box-innertext {
+            padding: 0px 0px 0px 10px;
+            font-size: 9px;
+            width: calc(70% - 40px);
+      }
+      .contentbox6-box-data {
+            font-size: 11px;
+      }
+      .contentbox6-box:hover .contentbox6-box-icon img {
+            margin-left: 0px !important;
+      }
+      .again {
+            line-height: 30px;
+      }
+      .font24px {
+            font-size: 9px;
       }
 }

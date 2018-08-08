@@ -12,7 +12,7 @@
 }
 
 .contentbox6-box:hover .contentbox6-box-icon img {
-      right: 21px;
+     margin-left: 40px;
       content: url('../Image/header/right-arrow-red.svg');
 }
 
