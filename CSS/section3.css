@@ -1,6 +1,6 @@
 
 
-/* 圖片 */
+/* 女僕圖片 */
 
 .maid01 {
       background-image: url(../Image/maid/瓜.jpg);
@@ -83,4 +83,23 @@
       width: 100%;
       background-position: center;
       background-size: cover;
+}
+
+@media(max-width:1140px) {
+      .maidcard{
+            width: 43%;
+      }
+      .maidcardphoto{
+            height: 400px;
+      }
+}
+@media(max-width:635px) {
+      .maidcard{
+            width: 43%;
+      }
+      .maidcardphoto{
+            padding: 10px;
+            height: 150px;
+            width: calc(100% - 20px);
+      }
 }

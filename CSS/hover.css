@@ -12,7 +12,7 @@
 }
 
 .contentbox6-box:hover .contentbox6-box-icon img {
-     margin-left: 40px;
+      margin-left: 30px;
       content: url('../Image/header/right-arrow-red.svg');
 }
 
@@ -26,4 +26,18 @@
 
 .sectionicon :hover img {
       content: url('../Image/header/facebook-letter-puplue.svg');
+}
+
+.contentbox8-box:hover .contentbox6-box-icon img {
+      margin-left: 30px;
+      content: url('../Image/header/right-arrow-red.svg');
+}
+
+.contentbox8-box-more:hover {
+      background-color: red;
+}
+
+.contentright-box:hover .contentbox6-box-icon img {
+      margin-left: 30px;
+      content: url('../Image/header/right-arrow-red.svg');
 }

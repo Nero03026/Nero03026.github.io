@@ -41,6 +41,9 @@ p {
 .titlefont24px {
       font-size: 24px;
 }
+.font15px{
+      font-size: 15px;
+}
 
 /* 置中 */
 
@@ -60,4 +63,9 @@ p {
 
 .clear {
       clear: both;
+}
+
+/* 特殊 */
+.mar-50{
+      margin-bottom: 100px;
 }
