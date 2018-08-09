@@ -2,26 +2,10 @@
       width: 50%;
 }
 
-.contenttop {
-      width: 100%;
-      position: relative;
-}
-
-.contentboxtitle {
-      float: left;
-      width: 50%;
-      padding-bottom: 80px;
-}
 .contentboxtext2{
       line-height: 65px;
 }
-.contentbox-border {
-      position: absolute;
-      height: 2px;
-      width: 100%;
-      background-color: black;
-      margin: 40px 0px;
-}
+
 
 .contentleft {
       width: 48%;
@@ -29,53 +13,6 @@
       float: left;
 }
 
-.contentright {
-      width: calc(50% - 30px);
-      padding-left: 30px;
-      height: 400px;
-      float: left;
-      margin-bottom: 50px;
-}
-
-.content-border {
-      background-color: black;
-      width: 540px;
-      height: 3px;
-      position: absolute;
-      z-index: 4;
-}
-
-.contentright-box {
-      position: relative;
-      width: 100%;
-      height: 18%;
-      background-color: white;
-}
-
-.contentright-box-data {
-      position: absolute;
-      width: 25%;
-      height: 60%;
-      margin-top: 13.4px;
-      background-color: black;
-      font-size: 24px;
-      color: blanchedalmond;
-      text-align: center;
-      line-height: 43.2px;
-}
-
-.contentright-box-more {
-      width: 60px;
-      height: 30px;
-      background-color: black;
-      position: absolute;
-      right: 25px;
-      top: 85px;
-      color: #fff;
-      line-height: 22.5px;
-      text-align: center;
-      border-radius: 5%;
-}
 .plugin chrome webkit win x1-5 Locale_zh_TW {
       width: 1000px;
 }
@@ -144,3 +81,4 @@
             .price>div {
                   width: 50%;
             }
+

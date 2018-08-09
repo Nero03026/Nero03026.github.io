@@ -7,8 +7,6 @@ body {
 
 /* 大標題抬頭 */
 
-
-
 p {
       margin: 20px 0px;
       padding: 0;
@@ -16,18 +14,31 @@ p {
       color: white;
 }
 
+.content-border {
+      background-color: black;
+      width: 540px;
+      height: 3px;
+      position: absolute;
+      z-index: 4;
+}
+
 /* 邊框限制 */
-*{
+
+* {
       font-family: myfont;
 }
-.content {
 
+.content {
       max-width: 1140px;
 }
 
 /* 字體大小 */
 
 .font24px {
+      font-size: 24px;
+}
+
+.titlefont24px {
       font-size: 24px;
 }
 
