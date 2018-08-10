@@ -16,6 +16,7 @@
 }
 
 /* 標籤線條 */
+
 .sectiondecoration {
       position: absolute;
       z-index: 3;
@@ -25,11 +26,20 @@
       width: 6px;
       left: -3px;
 }
+
 /* 標籤線條 */
+
 .contentborder {
       margin-top: 10px;
       width: 100%;
       background-color: rgb(44, 44, 44);
       height: 1.5px;
+}
 
+.plugin chrome webkit win x1-5 Locale_zh_TW {
+      width: 1000px;
+}
+
+._2p3a {
+      width: 100% !important;
 }
