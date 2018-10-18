@@ -1,3 +1,6 @@
+.section-06{
+      height: 700px;
+}
 .content-border6 {
       height: 2px;
       width: 50%;
@@ -6,7 +9,7 @@
 }
 .contentbox-border6{
       height: 2px;
-      width: 50%;
+      width: 90%;
       background-color: black;
       margin: 20px 0px;
 }

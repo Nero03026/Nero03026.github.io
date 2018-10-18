@@ -58,7 +58,8 @@
 /* 照片相框 */
 
 .maidcardphoto {
-      width: calc(100% - 50px);
+      /* width: calc(100% - 50px); */
+      width: 100%;
       padding: 25px 25px;
       height: 250px;
       background-color: #91B5FA;
