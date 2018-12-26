@@ -1,0 +1,215 @@
+/* 女僕介紹-影片 */
+#Maid {
+    height: 80vh;
+    width: 100%;
+    background-color: #7F9CF2;
+    position: relative
+}
+
+#Maid div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#Maid div div {
+    width: 560px;
+    height: 315px;
+    margin: auto;
+}
+
+#Maid iframe {
+    margin-bottom: 50px;
+}
+
+#Maid .button {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 80px;
+}
+
+#Maid .button div {
+    width: 400px;
+    height: 60px;
+    background-color: aqua;
+    margin: 0 auto;
+}
+
+/* 女僕介紹-女僕 */
+.maid-data {
+    padding: 60px 0px;
+    position: relative;
+    text-align: center;
+}
+
+.maid-data h1 {
+    font-size: 50px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+
+/* 介紹 */
+.maid-data .Introduction {
+    margin-bottom: 100px;
+}
+
+.maid-data .Introduction .col-12 {
+    height: 60vh;
+    background-color: aquamarine;
+    margin-bottom: 50px;
+}
+
+/* 總覽 */
+.maid-data .view {
+    margin-bottom: 200px;
+}
+
+.maid-data .view .container {
+    padding: 0 140px;
+}
+
+.maid-data .view .container div {
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    float: left;
+    margin: 0px 7.5px;
+}
+
+
+
+.maid-data::after,
+.maid-data::before {
+    position: absolute;
+    z-index: -1;
+    display: block;
+    width: 50vw;
+    height: 50vw;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background-color: #7F9CF2;
+    content: "";
+}
+
+.maid-data::after {
+    bottom: -30vw;
+    left: -30vw;
+}
+
+.maid-data::before {
+    top: -30vw;
+    right: -30vw;
+}
+
+.A1-h1::after,
+.A1-h1::before {
+    display: block;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    height: 1px;
+    border-top: solid 1px rgba(39, 57, 90, .5);
+    content: "";
+}
+
+.A1-h1::after {
+    margin-left: .4em;
+}
+
+.A1-h1::before {
+    margin-right: .4em;
+}
+
+.maid-data div {
+    font-size: 25px;
+    line-height: 50px;
+}
+
+.maid-data .col-4 {
+    margin-bottom: 15px;
+}
+
+/* 菜單 */
+#Menu {
+    width: 100%;
+    height: 20vh;
+    background-color: #7F9CF2;
+    position: relative;
+}
+
+#Menu h1 {
+    font-size: 50px;
+    line-height: 25vh;
+    position: absolute;
+    left: 12.5%;
+}
+
+#Menu div {
+    width: 180px;
+    height: 50px;
+    position: absolute;
+    background-color: blue;
+    border-radius: 50px;
+    line-height: 15vh;
+    top: 90px;
+}
+
+#Menu div:nth-child(0n+2) {
+    left: 62.5%;
+}
+
+#Menu div:nth-child(0n+3) {
+    left: 75%;
+}
+
+#Menu-List {
+    padding: 0;
+}
+
+#Menu-List .row {
+    height: 70vh;
+}
+
+#Menu-List .row .col-3 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#Menu-List .row .col-3:nth-child(0n+1) {
+    background-image: url('/img/Menu-List01.png');
+}
+
+#Menu-List .row .col-3:nth-child(0n+2) {
+    background-image: url('/img/Menu-List02.png');
+}
+
+#Menu-List .row div {
+    height: 100%;
+}
+
+
+
+/* 關於時刻 */
+#home {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home div {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(25, 31, 48, 0.418);
+    display: flex;
+}
+
+#home div div {
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    margin: auto;
+}
