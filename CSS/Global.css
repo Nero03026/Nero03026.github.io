@@ -1,0 +1,71 @@
+/* 內文 */
+
+body {
+      margin: 0;
+      padding: 0;
+}
+
+/* 大標題抬頭 */
+
+p {
+      margin: 20px 0px;
+      padding: 0;
+      font-size: 30px;
+      color: white;
+}
+
+.content-border {
+      background-color: black;
+      width: 540px;
+      height: 3px;
+      position: absolute;
+      z-index: 4;
+}
+
+/* 邊框限制 */
+
+* {
+      font-family: myfont;
+}
+
+.content {
+      max-width: 1140px;
+}
+
+/* 字體大小 */
+
+.font24px {
+      font-size: 24px;
+}
+
+.titlefont24px {
+      font-size: 24px;
+}
+.font15px{
+      font-size: 15px;
+}
+
+/* 置中 */
+
+.again {
+      text-align: center;
+      line-height: 60px;
+      padding: 25px 0px;
+}
+
+.font36px {
+      color: white;
+      font-size: 36px;
+      margin-left: 20px;
+}
+
+/* 清除 */
+
+.clear {
+      clear: both;
+}
+
+/* 特殊 */
+.mar-50{
+      margin-bottom: 100px;
+}

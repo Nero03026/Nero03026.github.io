@@ -1,0 +1,35 @@
+#footer {
+      height: 80px;
+      background-color: #91B5FA;
+      background-position: center;
+      width: 100%;
+}
+
+.footerbox {
+      width: 75%;
+      line-height: 80px;
+      margin: 0 auto;
+      text-align: center;
+      background-position: center;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.footerbox .menu img {
+      float: left;
+      height: 50px;
+}
+.footermenulogo{
+      color: aliceblue;
+      font-size: 36;    
+}
+.footerbox .menuicon img {
+      margin-bottom: -13px;
+      height: 30px;
+}
+@media(max-width:1140px) {
+      .footermenulogo{
+            font-size:24;    
+      }
+}

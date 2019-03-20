@@ -1,0 +1,31 @@
+.content-border6 {
+      height: 2px;
+      width: 50%;
+      background-color: black;
+      margin: 20px 0px 40px;
+}
+.contentbox-border6{
+      height: 2px;
+      width: 50%;
+      background-color: black;
+      margin: 20px 0px;
+}
+.content-text6{
+      padding: 0px 5% 0px;
+}
+
+
+@media(max-width:1140px) {
+      .block6 {
+            height: 500px;
+      }
+}
+
+@media(max-width:635px) {
+      .contentright-box {
+            height: 14%;
+      }
+      .content-border {
+            width: 90%;
+      }
+}
